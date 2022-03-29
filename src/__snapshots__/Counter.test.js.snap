@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Counter /> Counter snap shot 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <div>
+      value: 
+      0
+    </div>
+    <button>
+       + 
+    </button>
+    <button>
+       - 
+    </button>
+    <button>
+       reset 
+    </button>
+    <div>
+      count: 
+      0
+    </div>
+    <button>
+       click 
+    </button>
+  </div>
+</div>
+`;
