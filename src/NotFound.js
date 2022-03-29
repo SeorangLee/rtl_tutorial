@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 function NotFound({ path }) {
   return (
@@ -9,6 +10,7 @@ function NotFound({ path }) {
         alt="404"
         src="https://media.giphy.com/media/14uQ3cOFteDaU/giphy.gif"
       />
+      <Link to="/">Go to Login</Link>
     </>
   );
 }

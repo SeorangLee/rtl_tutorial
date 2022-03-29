@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {Link} from 'react-router-dom';
 
 function LoginForm({ onSubmit }) {
   const [email, setEmail] = useState("");
@@ -27,6 +28,19 @@ function LoginForm({ onSubmit }) {
         </label>
         <button disabled={!email || !password}>로그인</button>
       </form>
+      <Link to ="/counter">Go Counter</Link>
+      <Link to="/404">Go to 404</Link>
+      <ul>
+          <li>
+              <Link to="/profiles/velopert">velopert profile</Link>
+          </li>
+          <li>
+              <Link to="/profiles/gildong">gildong profile</Link>
+          </li>
+          <li>
+              <Link to="/profiles/void">존재하지않는 profile</Link>
+          </li>
+      </ul>
     </>
   );
 }

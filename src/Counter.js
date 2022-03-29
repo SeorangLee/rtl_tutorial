@@ -1,5 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
+import {Link} from 'react-router-dom';
 
 function Counter(){
 
@@ -33,6 +34,8 @@ function Counter(){
 				count: {count}
 			</div>
 			<button onClick={pushButton}> click </button>
+            <Link to="/">Go to Login</Link>
+            
 		</div>
     )
 }
